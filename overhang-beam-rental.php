@@ -261,134 +261,64 @@
 
           </div>
 
-          <div class="row top">
-              <div class="col-md-12">
-              <ul class="pressure-washer-product-images">
-
-            <li>
-              <a data-fancybox="gallery" href="./images/spider-crane/spider-crane-img-1.webp">
-                <img src="./images/spider-crane/spider-crane-img-1.webp" alt="Spider Crane">
-              </a>
-              <h5> Spider Crane </h5>
-            </li>
-
-            <li>
-              <a data-fancybox="gallery" href="./images/spider-crane/spider-crane-img-2.webp">
-                <img src="./images/spider-crane/spider-crane-img-2.webp" alt="Spider Crane">
-              </a>
-              <h5> Spider Crane </h5>
-            </li>
-
-            <li>
-              <a data-fancybox="gallery" href="./images/spider-crane/spider-crane-img-3.webp">
-                <img src="./images/spider-crane/spider-crane-img-3.webp" alt="Spider Crane">
-              </a>
-              <h5> Spider Crane </h5>
-            </li>
-
-            <li>
-              <a data-fancybox="gallery" href="./images/spider-crane/spider-crane-img-4.webp">
-                <img src="./images/spider-crane/spider-crane-img-4.webp" alt="Spider Crane">
-              </a>
-              <h5> Spider Crane </h5>
-            </li>
-
-            <li>
-              <a data-fancybox="gallery" href="./images/spider-crane/spider-crane-img-5.webp">
-                <img src="./images/spider-crane/spider-crane-img-5.webp" alt="Spider Crane">
-              </a>
-              <h5> Spider Crane </h5>
-            </li>
-
-            <li>
-              <a data-fancybox="gallery" href="./images/spider-crane/spider-crane-img-6.webp">
-                <img src="./images/spider-crane/spider-crane-img-6.webp" alt="Spider Crane">
-              </a>
-              <h5> Spider Crane </h5>
-            </li>
-
-            <li>
-              <a data-fancybox="gallery" href="./images/spider-crane/spider-crane-img-7.webp">
-                <img src="./images/spider-crane/spider-crane-img-7.webp" alt="Spider Crane">
-              </a>
-              <h5> Spider Crane </h5>
-            </li>
-
- 
-
-          </ul>
-             </div>
-          </div>
+     
           
           <!-- Specifications -->
           <div class="row top">
               <div class="col-md-12">
-                <div class="crane-specs-wrap">
+                <div class="crane-specs-wrap overhang-specs">
                   <h2>Specifications</h2>
+                  <div class="overhang-specs-heading">
+                    <span class="overhang-specs-eyebrow">Overhang beam</span>
+                    <h3>GGA-3000</h3>
+                  </div>
                   <dl class="crane-specs">
-                    <div class="crane-spec">
-                      <dt>Capacity</dt>
-                      <dd>4,000 kg</dd>
+                    <div class="overhang-spec-row">
+                      <dt>Load capacity</dt>
+                      <dd><strong>3000 kg</strong></dd>
                     </div>
-                    <div class="crane-spec">
-                      <dt>Capacity at max. outreach</dt>
-                      <dd>209 kg</dd>
+                    <div class="overhang-spec-row">
+                      <dt>Power supply</dt>
+                      <dd>24 V battery, mains-independent with integrated charger</dd>
                     </div>
-                    <div class="crane-spec">
-                      <dt>Winch capacity</dt>
-                      <dd>4,000 kg</dd>
+                    <div class="overhang-spec-row">
+                      <dt>Furnishing</dt>
+                      <dd>Voltage indicator, shows the battery charge level</dd>
                     </div>
-                    <div class="crane-spec">
-                      <dt>Lifting height incl. jib</dt>
-                      <dd>22 meters</dd>
+                    <div class="overhang-spec-row">
+                      <dt>Service</dt>
+                      <dd>Radio remote control</dd>
                     </div>
-                    <div class="crane-spec">
-                      <dt>Max. outreach incl. jib</dt>
-                      <dd>19.8 m</dd>
+                    <div class="overhang-spec-row">
+                      <dt>Own weight</dt>
+                      <dd>1200 kg, without counterweights</dd>
                     </div>
-                    <div class="crane-spec">
-                      <dt>Jib length</dt>
-                      <dd>5 m</dd>
+                    <div class="overhang-spec-row">
+                      <dt>Options</dt>
+                      <dd>
+                        <ul class="overhang-spec-options">
+                          <li>Extension 1800 mm (WLL=1500 kg)</li>
+                          <li>30 degree adapter</li>
+                          <li>Device holder with shackle</li>
+                          <li>Device holder DSLMH-1t and DSMH-2t</li>
+                          <li>Device holder for the GA1500</li>
+                          <li>2-point suspension</li>
+                          <li>Mounting bracket for forks (WLL=1500 kg)</li>
+                          <li>Cross member for mounting elements</li>
+                        </ul>
+                      </dd>
                     </div>
-                    <div class="crane-spec">
-                      <dt>Max. outreach excl. jib</dt>
-                      <dd>13.7 m</dd>
+                    <div class="overhang-spec-row">
+                      <dt>Overhang</dt>
+                      <dd>Depending on the payload and the attachment</dd>
                     </div>
-                    <div class="crane-spec">
-                      <dt>Boom angle</dt>
-                      <dd>&minus;5&deg; to 83&deg;</dd>
+                    <div class="overhang-spec-row">
+                      <dt>Length</dt>
+                      <dd>6 m (length 4.3 m on request)</dd>
                     </div>
-                    <div class="crane-spec">
-                      <dt>Incline angle</dt>
-                      <dd>20&deg;</dd>
-                    </div>
-                    <div class="crane-spec">
-                      <dt>Slewing range</dt>
-                      <dd>Endless</dd>
-                    </div>
-                    <div class="crane-spec">
-                      <dt>Dimensions excl. options</dt>
-                      <dd>3.93 &times; 0.80 &times; 1.97 m</dd>
-                    </div>
-                    <div class="crane-spec">
-                      <dt>Dimensions incl. options</dt>
-                      <dd>4.15 &times; 0.80 &times; 2.07 m</dd>
-                    </div>
-                    <div class="crane-spec">
-                      <dt>Total weight incl. options</dt>
-                      <dd>4,700 kg</dd>
-                    </div>
-                    <div class="crane-spec">
-                      <dt>Total weight excl. options</dt>
-                      <dd>3,260 kg</dd>
-                    </div>
-                    <div class="crane-spec">
-                      <dt>Ground pressure</dt>
-                      <dd>0.72 kg/cm&sup2;</dd>
-                    </div>
-                    <div class="crane-spec">
-                      <dt>Charging options</dt>
-                      <dd>230 V</dd>
+                    <div class="overhang-spec-row">
+                      <dt>Counterweights</dt>
+                      <dd>1000 kg, 500 kg, 500 kg occupiable 16 pieces (25 kg/piece)</dd>
                     </div>
                   </dl>
                 </div>
@@ -404,9 +334,12 @@
                   Our focus on reliable equipment, operational safety, and professional support makes us a trusted choice for businesses
                    seeking efficient and flexible spider crane rental solutions. 
           </p>
-          <p>  For any rental requirements for Spider Cranes, please 
-             <a class="cont" href="contact.php"> contact us  </a>  at <a href="tel:971565388502"> +971 56 538 8502 </a>
-              or email us at <a href="mailto:sales@yesautomation.ae"> sales@yesautomation.ae </a>. </p>
+          
+
+              <p>
+                For any rental requirements for Overhang Beam, please <a class="cont" href="contact.php"> contact us </a>
+                 at <a href="tel:971565401249"> +971 56 540 1249 </a> or email us at <a href="mailto:sales@yesautomation.ae"> sales@yesautomation.ae </a>.
+              </p>
               
             </div>
 

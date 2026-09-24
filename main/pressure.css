@@ -170,6 +170,134 @@
   
   }
 
+/* Overhang beam specification sheet: scoped to the overhang rental page. */
+.overhang-specs {
+  --spec-accent: #bf3926;
+  color: #263540;
+}
+
+.overhang-specs .overhang-specs-heading {
+  padding: 26px 30px;
+  border: 1px solid #e2e6e9;
+  border-bottom: 0;
+  border-top: 3px solid var(--spec-accent);
+  border-radius: 12px 12px 0 0;
+  background: #f2f4f5;
+}
+
+#machinery-image .overhang-specs .overhang-specs-eyebrow {
+  display: block;
+  margin: 0 0 8px;
+  color: #596773;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+#machinery-image .overhang-specs .overhang-specs-heading h3 {
+  margin: 0;
+  padding: 0;
+  color: #263540;
+  font-size: clamp(24px, 3vw, 32px);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.overhang-specs .crane-specs {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #e2e6e9;
+  border-radius: 0 0 12px 12px;
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(38, 53, 64, 0.05);
+  overflow: hidden;
+}
+
+.overhang-specs .overhang-spec-row {
+  display: grid;
+  grid-template-columns: minmax(140px, 26%) minmax(0, 1fr);
+  gap: 12px 28px;
+  padding: 18px 30px;
+}
+
+.overhang-specs .overhang-spec-row + .overhang-spec-row {
+  border-top: 1px solid #e8ecef;
+}
+
+.overhang-specs .overhang-spec-row:nth-child(even) {
+  background: #f8f9fa;
+}
+
+.overhang-specs .overhang-spec-row dt,
+.overhang-specs .overhang-spec-row dd {
+  min-width: 0;
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+}
+
+.overhang-specs .overhang-spec-row dt {
+  color: #263540;
+  font-weight: 700;
+}
+
+.overhang-specs .overhang-spec-row dd {
+  color: #4a5863;
+  font-weight: 400;
+}
+
+.overhang-specs .overhang-spec-row dd strong {
+  color: #a93020;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.overhang-specs .overhang-spec-options {
+  margin: 0;
+  padding: 0 0 0 19px;
+  list-style: disc outside;
+}
+
+.overhang-specs .overhang-spec-options li {
+  margin: 0;
+  padding: 0 0 0 3px;
+}
+
+.overhang-specs .overhang-spec-options li + li {
+  margin-top: 6px;
+}
+
+.overhang-specs .overhang-spec-options li::marker {
+  color: var(--spec-accent);
+}
+
+@media (max-width: 991px) {
+  .overhang-specs .overhang-specs-heading {
+    padding: 22px;
+  }
+
+  .overhang-specs .overhang-spec-row {
+    grid-template-columns: minmax(115px, 28%) minmax(0, 1fr);
+    gap: 10px 20px;
+    padding: 16px 22px;
+  }
+}
+
+@media (max-width: 575px) {
+  .overhang-specs .overhang-specs-heading {
+    padding: 20px;
+  }
+
+  .overhang-specs .overhang-spec-row {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 5px;
+    padding: 16px 20px;
+  }
+}
+
 /* Spider Crane Specifications */
 .crane-specs-wrap {
   margin: 8px 0 12px;
