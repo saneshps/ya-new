@@ -389,9 +389,9 @@ spaces effortlessly.  </p>
 
           </div>
 
-          <div class="row top">
-              <div class="col-md-12">
-              <ul class="pressure-washer-product-images">
+      <div class="row top">
+        <div class="col-md-12">
+          <ul class="pressure-washer-product-images">
 
             <li>
               <a data-fancybox="gallery" href="./images/spider-crane/spider-crane-img-1.webp">
@@ -445,8 +445,8 @@ spaces effortlessly.  </p>
  
 
           </ul>
-             </div>
-          </div>
+        </div>
+      </div>
           
           <!-- Specifications -->
           <div class="row top">

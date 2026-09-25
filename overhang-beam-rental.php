@@ -164,17 +164,11 @@
             <!--// Express Interest -->
 
 
-            <div id="download">
-
-              <h3>DOWNLOAD CATALOGUES</h3>
-
-
-
-              <a href="pdf/C10e_brochure_EN_WEB_892e72f267-compressed.pdf" class="box" download><i class="demo-icon icon-pdf">&#xe811;</i> Spider Crane C10e</a>
-
-              <a href="pdf/C10e_Lasttabellen_1_ba7afbea38-compressed.pdf" class="box" download><i class="demo-icon icon-pdf">&#xe811;</i> Spider Crane C10e Loaddiagram </a>
-
-            </div>
+      <div id="case">
+                            <a href="javascript:void(0);" data-modal="modalOne" class="button-q">
+                                <h2>Get Quote</h2>
+                            </a>
+                        </div>
 
   
 
@@ -242,26 +236,52 @@
 
           </div>
  
-       
+    
 
- 
+     <!-- Gallery -->
+            <div class="row top">
+        <div class="col-md-12">
+          <ul class="pressure-washer-product-images">
 
+            <li>
+              <a data-fancybox="gallery" href="./images/overhang-beam/Overhang-Beam-1.webp">
+                <img src="./images/overhang-beam/Overhang-Beam-1.webp" alt="Overhang Beam">
+              </a>
+              <h5> Overhang Beam </h5>
+            </li>
 
+            <li>
+              <a data-fancybox="gallery" href="./images/overhang-beam/Overhang-Beam-2.webp">
+                <img src="./images/overhang-beam/Overhang-Beam-2.webp" alt="Overhang Beam">
+              </a>
+              <h5> Overhang Beam </h5>
+            </li>
 
-          <div class="row top">
- 
+            <li>
+              <a data-fancybox="gallery" href="./images/overhang-beam/Overhang-Beam-3.webp">
+                <img src="./images/overhang-beam/Overhang-Beam-3.webp" alt="Overhang Beam">
+              </a>
+              <h5> Overhang Beam </h5>
+            </li>
 
-            <div class="col-md-12">
+            <li>
+              <a data-fancybox="gallery" href="./images/overhang-beam/Overhang-Beam-4.webp">
+                <img src="./images/overhang-beam/Overhang-Beam-4.webp" alt="Overhang Beam">
+              </a>
+              <h5> Overhang Beam </h5>
+            </li>
 
-              <iframe width="100%" height="415" src="https://www.youtube.com/embed/0K5zz8U_3sI?si=ezFC80c7CxPwJkQj" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-            </div>
-
-
-
-          </div>
-
-     
+            <li>
+              <a data-fancybox="gallery" href="./images/overhang-beam/Overhang-Beam-5.webp">
+                <img src="./images/overhang-beam/Overhang-Beam-5.webp" alt="Overhang Beam">
+              </a>
+              <h5> Overhang Beam </h5>
+            </li>
+  
+          </ul>
+        </div>
+      </div>
+     <!-- Gallery -->
           
           <!-- Specifications -->
           <div class="row top">
@@ -368,12 +388,34 @@
 
   </section>
 
-
+    <?php $model = 'Welding/Tank/Pipe Rotators';
+  include_once('quote-request.php');
+  ?>
 
   <?php include 'footer.php'; ?>
 
 
-
+    <script>
+    let modalBtns = [...document.querySelectorAll(".button-q")];
+    modalBtns.forEach(function(btn) {
+        btn.onclick = function() {
+            let modal = btn.getAttribute("data-modal");
+            document.getElementById(modal).style.display = "block";
+        };
+    });
+    let closeBtns = [...document.querySelectorAll(".close")];
+    closeBtns.forEach(function(btn) {
+        btn.onclick = function() {
+            let modal = btn.closest(".modal-quote");
+            modal.style.display = "none";
+        };
+    });
+    window.onclick = function(event) {
+        if (event.target.className === "modal-quote") {
+            event.target.style.display = "none";
+        }
+    };
+    </script>
 
   <script type="text/javascript">
     $(function() {
