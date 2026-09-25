@@ -5,7 +5,7 @@
 <head>
 
 
-  <title> Overhang Beam Rental UAE| YES Automation | YES Automation </title>
+  <title> Overhang Beam Rental UAE| YES Automation </title>
 
   <meta name="description" content="Rent high-quality overhang beams in the UAE from YES Automation. Get reliable lifting solutions, flexible rental options, and expert support for your projects.">
 
@@ -17,7 +17,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="canonical" href="https://www.yesautomation.ae/spider-crane-rental-uae.php" />
+  <link rel="canonical" href="https://www.yesautomation.ae/overhang-beam-rental.php" />
 
 
   <link rel="stylesheet" href="main/bootstrap.min.css">
@@ -29,6 +29,7 @@
   <link href="slider/skdslider.css" rel="stylesheet">
   <link rel="stylesheet" href="main/menu.css">
   <link rel="stylesheet" href="main/pressure.css">
+  <link rel="stylesheet" href="main/overhang-faq.css">
 
   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
@@ -332,16 +333,60 @@
           </div>
           <!-- Specifications -->
 
+          <!-- FAQ -->
+          <div class="row top">
+            <div class="col-md-12">
+              <section class="overhang-faq" aria-labelledby="overhang-faq-title">
+                <div class="overhang-faq-heading">
+                  <h2 id="overhang-faq-title">FAQ</h2> 
+                </div>
+
+                <div class="overhang-faq-list">
+                  <details class="overhang-faq-item" name="overhang-faq" open>
+                    <summary>
+                      <span class="overhang-faq-number" aria-hidden="true">01</span>
+                      <span class="overhang-faq-question">What is an overhang beam used for in construction?</span>
+                      <span class="overhang-faq-icon" aria-hidden="true"></span>
+                    </summary>
+                    <div class="overhang-faq-answer">
+                      <p> The overhang beam rental is specialized equipment, a lifting attachment designed for the installation of glass 
+                        cladding and facade panels beneath spaces that aren’t reachable for standard crane hooks. 
+
+                        </p>
+                    </div>
+                  </details>
+
+                  <details class="overhang-faq-item" name="overhang-faq">
+                    <summary>
+                      <span class="overhang-faq-number" aria-hidden="true">02</span>
+                      <span class="overhang-faq-question"> How do I rent an overhang beam in Dubai or the UAE? </span>
+                      <span class="overhang-faq-icon" aria-hidden="true"></span>
+                    </summary>
+                    <div class="overhang-faq-answer">
+                      <p>You can rent counterweight overhang beams directly through YES Automation. We offer flexible daily, weekly, and monthly rental plans.</p>
+                    </div>
+                  </details>
+
+                  <details class="overhang-faq-item" name="overhang-faq">
+                    <summary>
+                      <span class="overhang-faq-number" aria-hidden="true">03</span>
+                      <span class="overhang-faq-question">What lifting capacity is available for overhang beam rentals?</span>
+                      <span class="overhang-faq-icon" aria-hidden="true"></span>
+                    </summary>
+                    <div class="overhang-faq-answer">
+                      <p>Safe Working Loads (SWL) up to 3,000 kg and are capable of reaching overhang depths up to 3.5 meters</p>
+                    </div>
+                  </details>
+                </div>
+              </section>
+            </div>
+          </div>
+          <!-- /FAQ -->
+
           <div class="row top">
 
             <div class="col-md-12">
-              <p> With extensive expertise in industrial lifting solutions, YES Automation provides dependable Spider Crane Rental services in the UAE,
-                 offering high-quality equipment suited for confined spaces, restricted-access sites, and demanding lifting applications.
-                  Our focus on reliable equipment, operational safety, and professional support makes us a trusted choice for businesses
-                   seeking efficient and flexible spider crane rental solutions. 
-          </p>
-          
-
+            
               <p>
                 For any rental requirements for Overhang Beam, please <a class="cont" href="contact.php"> contact us </a>
                  at <a href="tel:971565401249"> +971 56 540 1249 </a> or email us at <a href="mailto:sales@yesautomation.ae"> sales@yesautomation.ae </a>.
