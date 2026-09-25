@@ -41,7 +41,8 @@
 
                                  <li><a <?php if ($page == 'steel') { ?>class="active" <?php } ?>>Rentals </a>
                                      <ul>
-                                         <li><a href='spider-crane-rental-uae.php'>Spider Crane </a></li>
+                                         <li><a href='overhang-beam-rental.php'>Overhang Beam </a></li>
+                                         <li><a href='spider-crane-rental-uae.php'>Spider Crane </a></li> 
                                          <li><a href='glass-lifting-sandwich-panel-lifting.php'>Glass & Panel lifting </a></li>
 
                                          <li><a href="glass-lifting-robot.php">Glass lifting robot</a></li>
