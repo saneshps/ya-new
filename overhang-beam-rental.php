@@ -62,18 +62,9 @@
 
     <ul id="banner">
 
-
-
-
-      <li>
-
-        <img src="images/Overhang-Beam-banner.webp" alt=" Overhang Beam Rental in UAE" />
+      <li> <img src="images/Overhang-Beam-banner.webp" alt=" Overhang Beam Rental in UAE" /> </li>
+      <li> <img src="images/overhang-beam/Overhang-Beam-5.webp" alt=" Overhang Beam Rental in UAE" /> </li>
  
-
-      </li>
- 
- 
-
     </ul>
 
     <div class="slide-desc">
@@ -163,12 +154,7 @@
             </div>
             <!--// Express Interest -->
 
-
-      <div id="case">
-                            <a href="javascript:void(0);" data-modal="modalOne" class="button-q">
-                                <h2>Get Quote</h2>
-                            </a>
-                        </div>
+ 
 
   
 
@@ -388,34 +374,11 @@
 
   </section>
 
-    <?php $model = 'Welding/Tank/Pipe Rotators';
-  include_once('quote-request.php');
-  ?>
+ 
 
   <?php include 'footer.php'; ?>
 
 
-    <script>
-    let modalBtns = [...document.querySelectorAll(".button-q")];
-    modalBtns.forEach(function(btn) {
-        btn.onclick = function() {
-            let modal = btn.getAttribute("data-modal");
-            document.getElementById(modal).style.display = "block";
-        };
-    });
-    let closeBtns = [...document.querySelectorAll(".close")];
-    closeBtns.forEach(function(btn) {
-        btn.onclick = function() {
-            let modal = btn.closest(".modal-quote");
-            modal.style.display = "none";
-        };
-    });
-    window.onclick = function(event) {
-        if (event.target.className === "modal-quote") {
-            event.target.style.display = "none";
-        }
-    };
-    </script>
 
   <script type="text/javascript">
     $(function() {
